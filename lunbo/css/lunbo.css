@@ -1,0 +1,34 @@
+html {
+    font-size: 100px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: arial,sans-serif;
+}
+
+.WSCSlideWrapper{
+    width: 414px;
+    height: 232px;
+    position: relative;
+    overflow: hidden;
+}
+
+.WSCSlide{
+    width: 1242px;
+    height: 232px;
+    font-size: 0;
+    position: absolute;
+    -webkit-transform:translate3d(0,0,0);
+}
+
+.WSCSlideTransition{
+    -webkit-transition: all 0.5s 0s ease-in-out;
+}
+
+.WSCSlide_img{
+    width: 414px;
+    height: 232px;
+}
